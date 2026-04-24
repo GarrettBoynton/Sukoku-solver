@@ -61,7 +61,7 @@ int main() {
     else if (choice == 2) {
         int blanks;
 
-        cout << "\nHow many blanks should the puzzle have? ";
+        cout << "\neasy 39 medium 41 hard 45 expert 48 master 51 extreme 54\nHow many blanks should the puzzle have? ";
         cin >> blanks;
 
         SudokuBoard puzzle = generator.generate(blanks);
